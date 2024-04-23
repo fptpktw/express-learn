@@ -1,0 +1,30 @@
+{
+  "name": "express-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "name": "express-learn-api",
+    "version": "1.0.0",
+    "main": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "browserify --node --ignore-missing app.js | terser > bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "body-parser": "^1.20.2",
+    "browserify": "^17.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^10.0.2",
+    "nodemon": "^3.0.3",
+    "terser": "^5.27.0"
+  }
+}
